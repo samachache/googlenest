@@ -5,7 +5,7 @@ body{
 }
 body a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     display:block ;
     
 }
@@ -23,9 +23,10 @@ body a{
     text-decoration: antiquewhite;
 }
 .searchbar {
+    position:fixed;
     width: 96%;
-    background-color: rgba(253, 251, 252, 0.986);
-    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgb(253, 251, 252);
+    border: 1px solid rgb(0, 0, 0);
 }
 .logo img{
     display: block;
@@ -34,7 +35,7 @@ body a{
   width: 15%;
 }
 .searchbar {
-    background-color: rgba(72, 71, 71, 0.468);
+    background-color:#4285F4;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -77,8 +78,8 @@ body a{
 }
 .buybutton {
     position: fixed;
-    top: 0%;
-    background-color: rgba(120, 120, 248, 0.874);
+    top: 3.5%;
+    background-color:#DB4437;
     border-radius: 40%;
 } 
 
@@ -91,10 +92,48 @@ body a{
     align-items: center;
      
 }
-.design img{
-    max-width:60%;
+.designpic {
+    display:flex ;
+    align-items:flex-start;
+    font-size:x-large;
+    margin: 4px;
+}
+.designpic img{
+    width:150%;
+    float: none;
+    
 
 }
-@media screen(max-width:1500px){
-    width: 100%;
+.designpic h2{
+    text-align: center;
+}
+.designpic p{
+    text-align:right;
+    margin: 1%;
+
+}
+.deco img{
+    
+    justify-content: space-around;
+    width: 33%;
+
+}
+
+.achat {
+    display: flex;
+    align-items:center ;
+    justify-content: left;
+}
+.achat p{
+    font-size:x-large;
+    text-decoration: underline;
+}
+.achat img{
+    width: 60%;
+}
+.achat a{
+    width: 10%;
+}
+@media (max-width:1500px){
+width: ;
 }
