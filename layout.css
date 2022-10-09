@@ -1,8 +1,7 @@
 body{
     background-color:rgb(255, 255, 255);
-    font-family:fantasy;
+    font-family:product sans-serif;
     box-sizing: border-box;
-    width: 99%;
 }
 body a{
     text-decoration: none;
@@ -85,9 +84,6 @@ body a{
 
 .fonctionnalites img{
     width: 30%;
-   
-    
-
 }
 
 .fonctionnalites {
@@ -95,18 +91,10 @@ body a{
     align-items: center;
      
 }
-
 .design img{
-    max-width: 30%;
-    align-items: flex-start;
+    max-width:60%;
 
 }
-.design
-  
-
-
-
-
 @media screen(max-width:1500px){
-    width: 90%;
+    width: 100%;
 }
