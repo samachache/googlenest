@@ -1,3 +1,9 @@
+@media screen and (max-width:1500px){
+    .body{
+       width: 500px;
+   
+    }
+}
 body{
     background-color:rgb(255, 255, 255);
     font-family:product sans-serif;
@@ -133,10 +139,4 @@ body a{
 }
 .achat a{
     width: 10%;
-}
-@media (max-width:1500px){
- .body{
-    width: 500px;
-
- }
 }
